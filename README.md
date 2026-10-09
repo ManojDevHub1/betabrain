@@ -1,7 +1,7 @@
 ﻿# 🧠 BetaBrain // In-Browser Local AI Engine
 
 <div align="center">
-  <img src="https://via.placeholder.com/1200x400?text=BetaBrain+Cinematic+Banner" alt="BetaBrain Banner" />
+  <img src="emage/Screenshot 2026-10-09 120614.png" alt="BetaBrain Banner" />
 </div>
 
 > **A cinematic, zero-latency, 100% private AI software architect that executes entirely on your local GPU inside the browser.**
