@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json",
+  "appId": "com.manojinbeta.betabrain",
+  "productName": "BetaBrain",
+  "copyright": "Copyright © 2026 Manoj in Beta. All rights reserved.",
+  "directories": {
+    "output": "dist"
+  },
+  "files": [
+    "electron/**/*",
+    "out/**/*",
+    "package.json"
+  ],
+  "asar": true,
+  "compression": "normal",
+  "removePackageScripts": true,
+  "removePackageKeywords": true,
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      },
+      {
+        "target": "portable",
+        "arch": ["x64"]
+      }
+    ],
+    "requestedExecutionLevel": "asInvoker",
+    "legalTrademarks": "BetaBrain is a trademark of Manoj in Beta",
+    "artifactName": "${productName}-${version}-${arch}.${ext}",
+    "verifyUpdateCodeSignature": false
+  },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "BetaBrain",
+    "uninstallDisplayName": "BetaBrain AI Software Builder",
+    "runAfterFinish": true
+  },
+  "portable": {
+    "artifactName": "${productName}-${version}-portable.${ext}",
+    "requestExecutionLevel": "user"
+  }
+}

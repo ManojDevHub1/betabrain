@@ -1,0 +1,175 @@
+@import "tailwindcss";
+@import "lenis/dist/lenis.css";
+
+@theme {
+  --color-void: #F7F7F9;
+  --color-surface: #FFFFFF;
+  --color-surface-hover: #FAFAFC;
+  --color-surface-muted: #F4F4F5;
+  --color-accent: #0055FF;
+  --color-accent-hover: #0047D6;
+  --color-accent-subtle: #EEF4FF;
+  --color-accent-border: #D6E4FF;
+  --color-border: #E4E4E7;
+  --color-border-subtle: #ECECEF;
+  --color-text-primary: #09090B;
+  --color-text-dim: #71717A;
+  --color-text-muted: #A1A1AA;
+
+  --font-display: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F7F7F9;
+  color: #09090B;
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+  min-height: 100svh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Clinical White Lab Atmosphere: Pristine, breathable canvas */
+.clean-room-bg {
+  background-color: #F7F7F9;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(0, 85, 255, 0.025), transparent 45%),
+    linear-gradient(to right, rgba(0, 0, 0, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.02) 1px, transparent 1px);
+  background-size: 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* Sterile Soft Lab Shadows */
+.lab-shadow-sm {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03), 0 1px 2px rgba(0, 0, 0, 0.02);
+}
+
+.lab-shadow-md {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.04), 0 2px 6px rgba(0, 0, 0, 0.02);
+}
+
+.lab-shadow-lg {
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.06), 0 4px 12px rgba(0, 0, 0, 0.02);
+}
+
+.lab-shadow-glow {
+  box-shadow: 0 8px 32px rgba(0, 85, 255, 0.12), 0 2px 6px rgba(0, 85, 255, 0.06);
+}
+
+/* Subtle Interactive Border */
+.lab-border {
+  border: 1px solid #E4E4E7;
+}
+
+.lab-border-subtle {
+  border: 1px solid #ECECEF;
+}
+
+/* The Crystalline Fill Glass Chamber */
+.crystalline-glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(228, 228, 231, 0.8);
+}
+
+/* Minimalist Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7F7F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E4E4E7;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A1A1AA;
+}
+
+/* Light Theme Code Syntax Highlighting (Clean Lab / GitHub Light) */
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1rem;
+  background: #FAFAFB !important;
+  color: #18181B;
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #0055FF;
+  font-weight: 600;
+}
+
+.hljs-string,
+.hljs-attribute,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #059669;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #7C3AED;
+  font-weight: 600;
+}
+
+.hljs-variable,
+.hljs-template-variable {
+  color: #D946EF;
+}
+
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #2563EB;
+}
+
+.hljs-number,
+.hljs-literal {
+  color: #D97706;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion {
+  color: #A1A1AA;
+  font-style: italic;
+}
+
+.hljs-meta {
+  color: #64748B;
+}
+
+/* Focus visible styling */
+:focus-visible {
+  outline: 2px solid #0055FF;
+  outline-offset: 2px;
+}
+
+/* Progressive enhancement: Noscript fallback */
+noscript .reveal-target {
+  opacity: 1 !important;
+  transform: none !important;
+  clip-path: none !important;
+}

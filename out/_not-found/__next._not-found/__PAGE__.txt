@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/2z29a2gh55eou.js"
+3:"/_next/static/chunks/3zzh5rotx9_cg.js"
+4:I[63209,["$2","$3"],"MotionConfig"]
+5:I[47420,["$2","$3"],"SmoothScroll"]
+6:I[69268,["$2","$3"],"Cursor"]
+7:"/_next/static/chunks/42onvq6nokjl2.js"
+8:I[39756,["$7"],"default"]
+9:I[37457,["$7"],"default"]
+10:I[97367,["$7"],"OutletBoundary"]
+11:"$Sreact.suspense"
+14:"ViewportBoundary"
+15:I[97367,["$7"],"$14"]
+16:"MetadataBoundary"
+17:I[97367,["$7"],"$16"]
+18:I[27201,["$7"],"IconMark"]
+:HL["/_next/static/chunks/3pjvq6j222ul-.css","style"]
+b:X
+e:X
+e:C
+f:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$0:t:t:d:r:props:children:1:props:children:1:props:children:1:props:children:props:children:1:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$0:t:t:d:r:props:children:1:props:children:1:props:children:1:props:children:props:children:1:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$0:t:t:d:r:props:children:1:props:children:1:props:children:1:props:children:props:children:1:props:notFound:0:1:props:children:props:children:2:props:style","children":["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:children:1:props:children:1:props:children:props:children:1:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]}]]}]}]],null,["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]]}],"p":"$@13","v":null,"s":"$b"}}]]
+c:[["children",{"s":"/_not-found","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L8",null,{"parallelRouterKey":"children","template":["$","$L9",null,{}]}]]}],"p":"$@d","v":"$e","s":"$b"},"c":"$Qf"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3pjvq6j222ul-.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/2z29a2gh55eou.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/3zzh5rotx9_cg.js","async":true}]],["$","html",null,{"lang":"en","className":"FVBGlW_variable tUkDyG_variable","children":[["$","head",null,{"children":["$","meta",null,{"httpEquiv":"Content-Security-Policy","content":"default-src 'self' app: file:; script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' app: https://cdn.tailwindcss.com https://cdn.jsdelivr.net https://unpkg.com; style-src 'self' 'unsafe-inline' app: https://fonts.googleapis.com; font-src 'self' app: data: https://fonts.gstatic.com; img-src 'self' app: data: blob: https:; connect-src 'self' app: blob: data: https://huggingface.co https://*.huggingface.co https://cdn-lfs.huggingface.co https://*.hf.co https://raw.githubusercontent.com https://github.com http://localhost:* ws://localhost:*; worker-src 'self' blob:; child-src 'self' blob:; frame-src 'self' data: blob:; object-src 'none'; base-uri 'self'; form-action 'self';"}]}],["$","body",null,{"className":"bg-[#F7F7F9] text-[#09090B] font-sans antialiased selection:bg-[#0055FF] selection:text-white","children":[["$","a",null,{"href":"#clean-canvas","className":"sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100000] focus:px-4 focus:py-2 focus:bg-[#0055FF] focus:text-white focus:text-xs font-medium rounded-lg","children":"Skip to Clean Canvas"}],["$","$L4",null,{"reducedMotion":"user","children":["$","$L5",null,{"children":[["$","$L6",null,{}],["$","$L8",null,{"parallelRouterKey":"children","template":["$","$L9",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]]}]}]]}]]}]]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$11",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"BetaBrain // The Clean Room | Manoj in Beta"}],["$","meta","1",{"name":"description","content":"Clinical, zero-latency in-browser local AI client running directly on your GPU via WebGPU. 100% private neural weight caching in IndexedDB."}],["$","meta","2",{"name":"author","content":"Manoj in Beta"}],["$","meta","3",{"name":"keywords","content":"BetaBrain,Manoj in Beta,WebGPU LLM,WebLLM,In-Browser AI,The Clean Room,Private AI"}],["$","link","4",{"rel":"icon","href":"/icon?c2f2c6ca3721120d","type":"image/png","sizes":"32x32"}],["$","$L18","5",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@19","v":null,"s":"$b"}},"a":"$@1a","u":"$@1b","b":"wCOkD58feFi6lkGC9EViE"}
+12:null
+b:300
+1b:true
+b:C
+1a:0
+d:"$undefined"
+a:"$undefined"
+19:"$undefined"
+13:"$undefined"
