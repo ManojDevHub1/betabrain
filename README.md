@@ -72,3 +72,13 @@ Open `http://localhost:3000` in your browser.
 Developed with precision by **Manoj in Beta** 
 *   **GitHub:** [@ManojDevHub1](https://github.com/ManojDevHub1)
 *   *Part of a high-utility engineering series dedicated to building privacy-first, edge-native developer tooling.*
+
+### ⚠️ Installation Note (Windows SmartScreen Warning)
+Because BetaBrain is a new, open-source project and not signed with a paid enterprise certificate, Windows Defender might show a blue "Windows protected your PC" warning when you run the `.exe` for the first time. 
+
+**This is entirely normal for indie open-source software and is NOT a virus.** 
+To proceed with the installation:
+1. Click on **"More info"**.
+2. Click on **"Run anyway"**.
+
+*🛡️ For complete transparency, you can view the 100% clean [VirusTotal Security Scan](https://www.virustotal.com/gui/file/12147ae5247226eb8359326323d95ebb44bc40c5c3b991cc6b358ebba44e20d0?nocache=1) of this executable.*
